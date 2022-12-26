@@ -55,12 +55,13 @@ body{
 
 .nav__link:hover{
 	color: #7E7E82;
+	cursor: pointer;
 }
 
 .link__hl{
 	opacity: 0;
 	margin-right: 20px;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 .nav__link:hover .link__hl{
