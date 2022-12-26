@@ -58,6 +58,11 @@ body{
 	cursor: pointer;
 }
 
+.nav__link:focus{
+	color: #7E7E82;
+	cursor: pointer;
+}
+
 .link__hl{
 	opacity: 0;
 	margin-right: 20px;
@@ -65,6 +70,10 @@ body{
 }
 
 .nav__link:hover .link__hl{
+	opacity: 1;
+}
+
+.nav__link:focus .link__hl{
 	opacity: 1;
 }
 
